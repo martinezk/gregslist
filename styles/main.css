@@ -1,0 +1,17 @@
+/*Greg's list*/
+.nav-bar{
+  height: 50px;
+  width: 100%;
+  background-color: LightGray;
+  position:  fixed;
+}
+ul {
+  list-style-type: none;
+}
+li {
+  display: inline;
+}
+.right-nav {
+  float: right;
+  padding-right: 10px;
+}
