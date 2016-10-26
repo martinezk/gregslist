@@ -1,4 +1,7 @@
 /*Greg's list*/
+body{
+	margin: 0;
+}
 .nav-bar{
   height: 50px;
   width: 100%;
