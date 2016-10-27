@@ -13,41 +13,53 @@ body{
 }
 ul {
   list-style-type: none;
+  font-size: 20px;
 }
-li.nav-bar {
+.navbar-list {
   display: inline;
+  
 }
 .right-nav {
   float: right;
-  padding-right: 10px;
+  padding-right: 30px;
 }
 /*Search Bar*/
 input{
-	width: 200px;
+	width: 300px;
 	margin-top: 100px;
 	margin-left: 100px;
+	color: DarkGray;
+}
+img{
+	width: 25px;
+	height: 25px;
 }
 /*Results Nav Bar*/
 .results-nav{
 	display: inline-block;
 	border: 1px solid LightGray;
 	margin-top: 30px;
-	
 }
 .previous-page, .next-page{
-	width: 80px;
+	width: 50px;
 }
 .number-results{
-	width: 160px;
+	width: 100px;
+	text-align: center;
 }
 .previous-page{
 	margin-left: 100px;
 }
-li, p {
-	font-size: 12px;
+.next-page{
+	text-align:right;
+}
+p {
+	font-size: 14px;
 }
 /*Job Listing Results*/
 .listings{
 	margin-left:60px;
 	margin-top: 40px;
+	padding-top: 5px;
+
 }
